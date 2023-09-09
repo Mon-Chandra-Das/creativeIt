@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Oswald:wght@200;300;600;700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: 0;
+}
+
+
+a{
+  display: inline-block;
+  text-decoration: none;
+}
+
+
+ul,ol{
+  list-style: none;
+}
+
+
+
+img{
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+
+}
+
+
+
+.clr{
+  clear: both;
+}
+
+
+
+.container{
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+
+}
+
+
+/* ====================================================
+header css start
+============================================ */
+
+#header{
+  height: 30px;
+  background-color: #0872b9;
+}
+
+.header_right{
+  width: 50%;
+  height: 30px;
+  float: left;
+}
+
+.header_left{
+  width: 50%;
+  height: 30px;
+  float: right;
+}
+
+.header_right p{
+  font-size: 14px;
+  font-weight: 400;
+  color: #e7e7e7;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 30px;
+}
+ 
+.header_left ul{
+  list-style: none;
+  line-height: 30px;
+ 
+  
+
+}
+.header_left ul li {
+   float: left;
+   padding: 0 20px;
+
+  
+}
+.header_left ul li a{
+font-size: 14px;
+color: #e7e7e7;
+font-family: 'Open Sans',sans-serif;
+transition: all linear .3s;
+  
+}
+
+.header_left ul li a:hover{
+  color:#0872b9;
+}
+/* ====================================================
+header css end
+============================================ */
+
+
+/* =======================================================
+start nav css
+=============================================== */
+
+#nav{
+  height: 80px;
+ 
+}
+
+.logo{
+  width: 30%;
+  height: 80px;
+  line-height: 80px;
+  float: left;
+}
+
+.logo img{
+  width: 80px;
+}
+
+.menu{
+  width: 70%;
+  height: 80px;
+  float: left;
+}
+.menu ul{
+  float: right;
+}
+.menu ul li{
+  float: left;
+  padding: 0 20px;
+  line-height: 80px;
+}
+.menu ul li a{
+  font-size: 14px;
+   font-weight: 400;
+   color: #4a4a4a;
+   font-family:'Open Sans',sans-serif ;
+   transition: .3s;
+}
+
+.menu ul li a:hover{
+  color: #0872b9;
+}
+/* =======================================================
+ end nav css
+=============================================== */
+
+
+/* ===================================================================
+banner css Start
+=========================================================== */
+
+#banner{
+ background-image: url(../image/banner.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ height: 400px;
+ position: relative;
+}
+
+
+#banner .overly{
+    background-color: rgba(0, 0, 0, 0.60);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.banner_text{
+  float: right;
+  text-align: right;
+  margin-top: 87px;
+}
+
+.banner_text h2{
+  font-size: 30px;
+  font-weight: 400;
+   font-family: 'Oswald', sans-serif;
+    color: #fff;
+
+}
+.banner_text h1{
+  font-size: 40px;
+  width: 700;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  margin: 2px 0 30px;
+}
+.banner_text p{
+  font-size: 13px;
+  font-weight: 400;
+  font-family: 'Open Sans',sans-serif;
+  color: #fff;
+  width: 440px;
+  line-height: 24px;
+}
+
+.banner_button a{
+  width: 80px;
+  height: 30px;
+  border: 1px solid #fff;
+  text-align: center;
+  line-height: 28px;
+   color: #fff;
+   font-size: 14px;
+   font-weight: 500;
+   font-family:'Oswald', sans-serif ;
+   margin-top: 32px;
+   margin-left: 20px;
+}
+
+.banner_button a:hover{
+  background-color: #0872b9;
+  border-color: #0872b9;
+}
+/* ===================================================================
+banner css end
+=========================================================== */
